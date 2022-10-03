@@ -14,7 +14,7 @@ public class kdvTutariHesaplama {
         kdvliFiyat = kdvsizFiyat + kdvtutari;
 
         System.out.println("KDV'siz Tutar:" +kdvsizFiyat);
-        System.out.println("KDV Oranı:" +kdvorani);
+        System.out.println("KDV Oranı:" +kdvorani*10);
         System.out.println("KDV Tutarı:" +kdvtutari);
         System.out.println("KDV'li Fiyat:" +kdvliFiyat);
     }
